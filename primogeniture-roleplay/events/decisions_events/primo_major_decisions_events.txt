@@ -1,0 +1,115 @@
+﻿namespace = primo_decisions
+
+# enable_primogeniture
+# 0750 - Choice to establish or not
+# 0751 - I have established primogeniture
+
+# enable_ultimogeniture
+# 0752 - Choice to establish or not
+# 0753 - I have established ultimogeniture
+
+# enable_primogeniture
+primo_decisions.0750 = {
+	type = character_event
+	title = primo_decisions.0750.t 
+	desc = primo_decisions.0750.desc 
+	theme = crown
+	left_portrait = {
+		character = root
+		animation = worry
+	}
+
+	# Yes, let us establish primogeniture
+	option = {
+		name = primo_decisions.0750.a
+		add_realm_law_skip_effects = single_heir_succession_law
+		trigger_event = {
+			id = primo_decisions.0751
+		}
+
+		ai_chance = {
+			base = 100
+		}
+	}
+
+	# No, the old ways should not be changed
+	option = {
+		name = primo_decisions.0750.b 
+
+		ai_chance = {
+			base = 0
+		}
+	}
+}
+
+primo_decisions.0751 = {
+	type = character_event
+	title = primo_decisions.0751.t 
+	desc = primo_decisions.0751.desc
+	theme = crown
+	left_portrait = {
+		character = root
+		animation = personality_bold
+	}
+
+	immediate = {
+		play_music_cue = "mx_cue_epic_sacral_moment"
+	}
+
+	# Glory to [country]!
+	option = {
+		name = primo_decisions.0751.a
+	}
+}
+
+primo_decisions.0752 = {
+	type = character_event
+	title = primo_decisions.0752.t 
+	desc = primo_decisions.0752.desc 
+	theme = crown
+	left_portrait = {
+		character = root
+		animation = worry
+	}
+
+	# Yes, let us establish primogeniture
+	option = {
+		name = primo_decisions.0752.a
+		add_realm_law = single_heir_succession_law_youngest
+		trigger_event = {
+			id = primo_decisions.0753
+		}
+
+		ai_chance = {
+			base = 100
+		}
+	}
+
+	# No, the old ways should not be changed
+	option = {
+		name = primo_decisions.0752.b 
+		ai_chance = {
+			base = 0
+		}
+	}
+}
+
+primo_decisions.0753 = {
+	type = character_event
+	title = primo_decisions.0753.t 
+	desc = primo_decisions.0753.desc
+	theme = crown
+	left_portrait = {
+		character = root
+		animation = personality_bold
+	}
+
+	immediate = {
+		play_music_cue = "mx_cue_epic_sacral_moment"
+	}
+
+	# Glory to [country]!
+	option = {
+		name = primo_decisions.0753.a
+	}
+}

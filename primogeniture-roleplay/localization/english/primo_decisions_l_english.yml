@@ -1,0 +1,28 @@
+﻿l_english:
+  enable_primogeniture:0 "Establish Primogeniture"
+  enable_primogeniture_confirm:0 "Summon the Council!"
+  enable_primogeniture_desc:0 "For too long has partition destabilized my realm. I will consider establishing primogeniture in order to rectify this."
+  enable_primogeniture_tooltip:0 "Partition is no longer viable"
+
+  primo_decisions.0750.t:0 "Establish Primogeniture"
+  primo_decisions.0750.desc:0 "For centuries have my ancestors distributed their lands to each of their children. To deny partible inheritence would mean breaking with our traditions and destroying the dreams of most of my children. The benefits of a truly hereditary monarchy are numerous, but can I so easily abandon the old ways of my people?"
+  primo_decisions.0750.a:0 "Yes, let us establish primogeniture."
+  primo_decisions.0750.b:0 "No, the old ways will continue to serve us well."
+
+  primo_decisions.0751.t:0 "Establish Primogeniture"
+  primo_decisions.0751.desc:0 "There can be no doubt. Even though I wish all my children well, for the good of the realm, only one of them can succeed me."
+  primo_decisions.0751.a:0 "Glory to the [ROOT.Char.GetPrimaryTitle.GetNameNoTooltip]!"
+
+  enable_ultimogeniture:0 "Establish Ultimogeniture"
+  enable_ultimogeniture_confirm:0 "Summon the Council!"
+  enable_ultimogeniture_desc:0 "For too long has partition destabilized my realm. I will consider establishing ultimogeniture in order to rectify this."
+  enable_ultimogeniture_tooltip:0 "Partition is no longer viable"
+
+  primo_decisions.0752.t:0 "Establish Ultimogeniture"
+  primo_decisions.0752.desc:0 "For centuries have my ancestors distributed their lands to each of their children. To deny partible inheritence would mean breaking with our traditions and destroying the dreams of most of my children. The benefits of a truly hereditary monarchy are numerous, but can I so easily abandon the old ways of my people?"
+  primo_decisions.0752.a:0 "Yes, let us establish ultimogeniture."
+  primo_decisions.0752.b:0 "No, the old ways are best."
+
+  primo_decisions.0753.t:0 "Establish Ultimogeniture"
+  primo_decisions.0753.desc:0 "There can be no doubt. Even though I wish all my children well, for the good of the realm, only one of them can succeed me."
+  primo_decisions.0753.a:0 "Glory to the [ROOT.Char.GetPrimaryTitle.GetNameNoTooltip]!"
