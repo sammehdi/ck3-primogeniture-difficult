@@ -72,7 +72,7 @@ primo_decisions.0752 = {
 		animation = worry
 	}
 
-	# Yes, let us establish primogeniture
+	# Yes, let us establish ultimogeniture
 	option = {
 		name = primo_decisions.0752.a
 		add_realm_law = single_heir_succession_law_youngest
@@ -81,7 +81,7 @@ primo_decisions.0752 = {
 		}
 
 		ai_chance = {
-			base = 100
+			base = 0
 		}
 	}
 
@@ -89,7 +89,7 @@ primo_decisions.0752 = {
 	option = {
 		name = primo_decisions.0752.b 
 		ai_chance = {
-			base = 0
+			base = 100
 		}
 	}
 }

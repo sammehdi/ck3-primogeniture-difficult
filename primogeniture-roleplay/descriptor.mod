@@ -5,5 +5,5 @@ tags={
 	"Gameplay"
 }
 name="Primogeniture for Roleplay"
-supported_version="1.2.2"
+supported_version="1.3.0"
 remote_file_id="2321741513"
